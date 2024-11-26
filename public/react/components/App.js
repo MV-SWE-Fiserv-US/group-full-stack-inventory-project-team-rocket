@@ -51,13 +51,6 @@ export const App = () => {
   //deleteItem sets selectedItem to null which will cause useEffect to trigger to update the list 
   //ternary will display list of items when selectedItem is null as well.
 
-  const handleSelectItem = (item) => {
-    setSelectedItem(item);
-  };
-
-  const handleBack = () => {
-    setSelectedItem(null);
-  };
 
   const handleSelectItem = (item) => {
     setSelectedItem(item);
